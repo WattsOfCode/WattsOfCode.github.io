@@ -95,7 +95,7 @@
         #home {
             height: 30vh;
             background: var(--primary);
-            margin-top: 0;
+            margin-top: var(--header-height);
             position: relative;
             overflow: hidden;
             display: flex;
@@ -106,7 +106,9 @@
         }
 
         #home h1 {
+            position: relative;
             z-index: 5;
+            margin: 0;
             font-size: clamp(2rem, 5vw, 3.5rem);
             letter-spacing: -1px;
             padding: 0 20px;
@@ -449,26 +451,20 @@
 
     function autoRotate() {
         if (!isPaused) {
-            rotationAngle -= 90; // Rotate to the next card
+            rotationAngle -= 90;
             slider.style.transform = `rotateY(${rotationAngle}deg)`;
         }
     }
 
-    // Rotate every 3 seconds
     let rotateInterval = setInterval(autoRotate, 3000);
 
-    // Interaction handling
     slider.addEventListener('mouseenter', () => isPaused = true);
     slider.addEventListener('mouseleave', () => isPaused = false);
 
     function rotateManual(direction) {
         isPaused = true;
-        // direction is 1 (next) or -1 (prev)
-        // We flip the sign because rotating the container negative moves cards forward
         rotationAngle += (direction * -90); 
         slider.style.transform = `rotateY(${rotationAngle}deg)`;
-
-        // Resume auto-rotation after 5 seconds
         clearTimeout(window.resumeTimer);
         window.resumeTimer = setTimeout(() => {
             isPaused = false;
