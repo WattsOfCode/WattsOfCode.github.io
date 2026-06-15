@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Book Nook",
+        "url": "https://github.com/WattsOfCode/PersonalLibraryApplication",
+        "image": "images/nook1.jpg",
+        "desc": "A personal library management web application designed to organize, track, and catalog your book collection seamlessly."
+    },
+    {
+        "title": "DM Screen",
+        "url": "https://github.com/WattsOfCode/WattsOfCode/tree/main/Java/DmScreen",
+        "image": "images/dmscreen.jpg",
+        "desc": "A Java-powered tool built for tabletop Dungeon Masters to manage campaign logistics, NPC states, and game flow on the fly."
+    },
+    {
+        "title": "Project ARDO",
+        "url": "https://github.com/WattsOfCode",
+        "image": "images/ARDO_img1.png",
+        "desc": "A dark fantasy C# RPG framework utilizing WinForms and SQLite persistence. Implements robust object-oriented patterns in a command-driven terminal style."
+    },
+    {
+        "title": "Soccer Challenge",
+        "url": "#",
+        "image": "images/soccerchallengeunity.jpg",
+        "desc": "An interactive, physics-driven gameplay module developed inside the Unity Game Engine showcasing real-time asset optimization."
+    }
+]
