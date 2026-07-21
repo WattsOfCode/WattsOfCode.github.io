@@ -13,7 +13,7 @@
     },
     {
         "title": "Project ARDO",
-        "url": "https://github.com/WattsOfCode",
+        "url": "https://github.com/WattsOfCode/Project_ARDO",
         "image": "images/ARDO_img1.png",
         "desc": "A dark fantasy C# RPG framework utilizing WinForms and SQLite persistence. Implements robust object-oriented patterns in a command-driven terminal style."
     },
