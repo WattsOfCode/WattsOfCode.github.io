@@ -1,26 +1,34 @@
 [
     {
         "title": "Book Nook",
+        "type": "Mobile application",
         "url": "https://github.com/WattsOfCode/PersonalLibraryApplication",
         "image": "images/nook1.jpg",
-        "desc": "A personal library management web application designed to organize, track, and catalog your book collection seamlessly."
+        "desc": "A mobile application for organizing, tracking, and managing a personal book collection through a focused interface.",
+        "tags": ["Mobile app", "Data management", "UI design"]
     },
     {
         "title": "DM Screen",
+        "type": "Java application",
         "url": "https://github.com/WattsOfCode/WattsOfCode/tree/main/Java/DmScreen",
         "image": "images/dmscreen.jpg",
-        "desc": "A Java-powered tool built for tabletop Dungeon Masters to manage campaign logistics, NPC states, and game flow on the fly."
+        "desc": "A Java utility that helps tabletop Dungeon Masters manage campaign logistics, character states, and game flow in one place.",
+        "tags": ["Java", "OOP", "Application design"]
     },
     {
         "title": "Project ARDO",
+        "type": "C# game framework",
         "url": "https://github.com/WattsOfCode/Project_ARDO",
         "image": "images/ARDO_img1.png",
-        "desc": "A dark fantasy C# RPG framework utilizing WinForms and SQLite persistence. Implements robust object-oriented patterns in a command-driven terminal style."
+        "desc": "A dark-fantasy RPG framework using C#, WinForms, and SQLite, with object-oriented architecture and persistent game data.",
+        "tags": ["C#", "SQLite", "WinForms"]
     },
     {
         "title": "Soccer Challenge",
+        "type": "Unity experience",
         "url": "https://cloud.unity.com/home/organizations/2474169617707/projects/ea15918b-9764-4a75-81a7-3240acc6903b",
         "image": "images/soccerchallengeunity.jpg",
-        "desc": "An interactive, physics-driven gameplay module developed inside the Unity Game Engine showcasing real-time asset optimization."
+        "desc": "An interactive, physics-driven gameplay module built in Unity to explore real-time systems and asset optimization.",
+        "tags": ["Unity", "C#", "Game systems"]
     }
 ]
