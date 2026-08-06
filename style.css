@@ -98,7 +98,7 @@ img { max-width: 100%; display: block; }
 }
 .hero-copy { position: relative; }
 .hero-copy::before {
-    content: "PLAYER_01";
+    content: "Software Developer";
     position: absolute;
     top: -58px;
     right: 0;
